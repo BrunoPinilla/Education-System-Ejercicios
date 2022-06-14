@@ -1,0 +1,243 @@
+Ejercicios - Introducción a CSS.pptx
+-----------------------------------------------------------------------------------------
+1.- (.pptx 10)
+    Crea un nuevo archivo HTML y pega lo siguiente:
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google.com</title>
+</head>
+<body>
+    <h1 id="title"><span id="G">G</span><span id="o1">o</span><span id="o2">o</span><span id="g">g</span><span id="l">l</span><span id="e">e</span></h1>
+    <form>
+        <input id="textinput" type="text">
+    <br>
+        <input id="input1" type="submit" value="Google Search">
+        <input id="input2" type="submit" value="I'm Feeling Lucky">
+    </form>
+        <p id="parrafo">Google offered in: Español (Latinoamérica)</p>
+</body>
+</html>
+
+    a.- Ingresa a https://www.google.com y observa el diseño de los elementos contenidos
+    b.- Agrega selectores de tipo clase o id a cada uno de elementos contenidos en el HTML
+    c.- Crea un CSS interno donde se le dará estilo a los elementos deseados posteriormente 
+    d.- Realiza un comentario en el apartado de estilo interno para indicar la funcionalidad de este 
+(Guarda el archivo en la carpeta CSS del repositorio remoto con el nombre 1.-CSS_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+2.- (.pptx 15)
+    Sobre el archivo anterior creado:
+    a.- Agrega un color de fondo a la página <body> igual al color mostrado en (si es necesario) https://www.google.com
+    b.- Cambia el color de fondo a los botones contenidos
+    c.- Cambia el color de fuente de los botones y textos (Al título no)
+(Guarda el archivo (Guardar como) en la carpeta CSS del repositorio remoto con el nombre 2.-CSS_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+3.- (.pptx 20)
+    Sobre el archivo anterior creado:
+    a.- Agrega los margins necesarios para separar cada uno de los elementos al igual que en https://www.google.com
+    b.- Agrega padding a los elementos necesarios para dar un estilo deseado
+    c.- Cambia el height y width del input de texto y los botones si es necesario para dar el estilo deseado
+    d.- Cambia el borde del input de texto con border-radius para que quede de forma ovalada
+(Guarda el archivo (Guardar como) en la carpeta CSS del repositorio remoto con el nombre 3.-CSS_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+4.- (.pptx 27)
+    Sobre el archivo anterior creado:
+    a.- Cambia la fuente de los elementos contendios a:
+        - <h1>: sans-serif (Puedes usar la fuente Product Sans Font, que es la usada por Google, pero tendrás que descargarla)
+        - <p>: sans-serif
+    b.- Cabia el tamaño de fuente de los elementos deseados 
+    b.- Posiciona cada uno de los elementos de forma relativa y centralos como se muestra en https://www.google.com
+(Guarda el archivo (Guardar como) en la carpeta CSS del repositorio remoto con el nombre 4.-CSS_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+5.- (.pptx 36 )
+    Sobre el archivo anterior creado:
+    a.- Crea una pseudo-clase para el text input, cuando el mouse es posicionado sobre el como sucede en https://www.google.com
+    b.- Crea una pseudo-clase para los botones, cuando el mouse es posicionado sobre ellos como sucede en https://www.google.com
+(Guarda el archivo (Guardar como) en la carpeta CSS del repositorio remoto con el nombre 5.-CSS_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+6.- (.pptx 39)
+    Observa como se componen las letras del título de https://www.google.com, los colores utilizados son los siguientes:
+        - G: #4285f4
+        - o: #ea4335
+        - o: #fbbc05
+        - g: #4285f4
+        - l: #34a853
+        - e: #ea4335
+    Nota que en archivo HTML proporcionado, cada una de las letras del título se encuentran separadas con <span>, esto nos da la                posibilidad de trabajar con sus id de forma independiente para asignarles estilos individuales
+    Sobre el archivo anterior creado:
+    a.- Utiliza el pseudo-elemento first:letter para asignar el color de letra a la primera letra del título (G)
+    b.- Da el estilo de color a cada una de las letras del título, para obtener un logo igual al desplegado en https://www.google.com
+(Guarda el archivo (Guardar como) en la carpeta CSS del repositorio remoto con el nombre 6.-CSS_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+
+Nota: Dentro de la carpeta CSS del repositorio, encontraras un archivo llamado "Recurso - Interface Google.JPG" esta es una imagen de referencia como debió quedar el estilo de la página desdpués de realizar todos estos ejercicios
+
+-----------------------------------------------------------------------------------------
+7.- (.pptx 45)
+    Con el siguiente HTML, crea una barra de navegación vertical con las siguientes características: 
+    a.- Que contenga un hover cuando se posiciona sobre un elemento del menú 
+    b.- Que al encontrarse activo en elemento de la lista se le asigne un estilo 
+    c.- Que contenga un display: block cada uno de los elementos del menú
+(Guarda el archivo en la carpeta CSS del repositorio remoto con el nombre 7.-CSS_Nombre_Apellido1_Apellido2.html)
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        img{
+            height: 20px;
+            width: 90px;
+            padding-left: 80px;
+            padding-right: 210px;
+            padding-top: 10px;
+        }
+
+        input{
+            height: 20px;
+            width: 500px;
+            position: relative;
+            : 200px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-9.png">
+    <input type="text" placeholder="Buscar..."></input>
+    <ul>
+        <li><a href="Home">Home</a></li>
+        <li><a href="Explore">Explore</a></li>
+        <li><a href="Shors">Shorts</a></li>
+        <li><a href="Suscriptions">Suscriptions</a></li>
+        <li><a href="Library">Library</a></li>
+        <li><a href="History">History</a></li>
+    </ul>
+</body>
+</html>
+-----------------------------------------------------------------------------------------
+8.- (.pptx 53)
+    Con el siguiente HTML, genera una/s regla de estilo CSS para dar un formato igual a todos los elementos contenidos en el <body> 
+    a.- Puedes utilizar !important 
+    b.- Utiliza las reglas de cascada CSS para acomodar los estilos 
+(Guarda el archivo en la carpeta CSS del repositorio remoto con el nombre 8.-CSS_Nombre_Apellido1_Apellido2.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .hprincipal{
+            color: mediumspringgreen;
+        }
+
+        .hsecundario{
+            color: aqua;
+        }
+
+        .hsecundario{
+            color: rgb(0, 128, 128);
+        }
+
+        .htercero{
+            color: rgb(59, 81, 81);
+        }
+        
+        .htercero{
+            color: rgb(82, 169, 169);
+        }
+
+        .hultimo{
+            color: rgb(98, 105, 105);
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="hprincipal">Heading 1</h1>
+    <h2 class="hsecundario">Heading 2</h2>
+    <h3 class="hsecundario">Heading 3</h3>
+    <h4 class="htercero">Heading 4</h4>
+    <h5 class="htercero">Heading 5</h5>
+    <h6 class="hultimo">Heading 6</h6>
+</body>
+</html>
+-----------------------------------------------------------------------------------------
+Ejercicios SASS.pptx
+-----------------------------------------------------------------------------------------
+9.- (.pptx 10)
+    En SASS realiza un Nest para dar estilo al siguiente HTML:
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/stylesass.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="uno">#1</a></li>
+            <li><a href="dos">#2</a></li>
+            <li><a href="tres">#3</a></li>
+            <li><a href="cuatro">#4</a></li>
+            <li><a href="cinco">#5</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+
+    Donde:
+    a.- Al elemento <ul> le asignes: 
+        - Un color de fondo 
+        - Un color que resalte resaltar del fondo colocado 
+        - Un estilo de lista (list-style)
+        - Un margen y un padding (puede ser 0)
+    b.- Al elemento <li> le asignes:
+        - Un tipo de display 
+        - Un tipo de letra diferente 
+        - Un hover para cambiar el color cuando se posiciona por encima del elemento  
+    c.- Al elemento <a> le asignes: 
+        - Un padding 
+(Guarda el archivo en la carpeta CSS del repositorio remoto con el nombre 9.-SASS_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+10.- (.pptx 15)
+    Con el siguiente HTML:
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Utilizando SASS</h1>
+    <h2>En una pagina web</h2>
+    <p>Y aplicando estilos con @mixing e @include</p>
+</body>
+</html>
+
+    Crea dos archivos SASS con las siguientes características:
+    a.- Uno que no genere archivos .css y solo contenga reglas de estilos para cambiar el color de fondo del del <body>
+    b.- Otro que importe el archivo antes generado para agregar sus características y que contenga las reglase de estilo de:
+        - Un @mixing con el nombre "diseñotexto" que contenga:
+            - El tamaño de letra a "large"
+            - El align de texto a "center"
+            - Un color de letra diferente a negro 
+    c.- Con @include, agrega el mixing antes creado a todos los textos del HTML 
+(Guarda el archivo en la carpeta CSS del repositorio remoto con el nombre 10.-SASS_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
