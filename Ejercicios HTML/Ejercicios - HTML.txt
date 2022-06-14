@@ -61,3 +61,4 @@ Ejercicios - Introducción a HTML.pptx
     Nota: Utiliza tipos de input diferentes a type=text en algunos inputs de los formularios
 (Guarda el archivo en la carpeta HTML del repositorio remoto con el nombre 6.-HTML_Nombre_Apellid1_Apellido2)
 -----------------------------------------------------------------------------------------
+Nota: Continua con CSS 
