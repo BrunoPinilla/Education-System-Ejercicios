@@ -1,0 +1,457 @@
+Ejercicios - Introducción a JavaScript.pptx
+-----------------------------------------------------------------------------------------
+1.-(.pptx 11)
+    A partir del siguiente HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #header{
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 60px;
+        }
+
+        #subtitle{
+            text-align: center;
+        }
+
+        .content{
+            text-align: center;
+        }
+
+        .div{
+            background-color: rgb(84, 218, 84);
+            height: 20px;
+            width: 400px;
+            margin-left: 435px;
+            text-align: center;
+            font-size: small;
+            padding-top: 5px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="header">Título de la página</h1>
+    <h2 id="subtitle">Subtítulo de la página</h2>
+    <p class="content">Contenido Contenido Contenido Contenido Contenido Contenido</p>
+    <div class="div">Menú desplegable</div>
+    <script>
+        /*Coloca aqui tu código de JS*/
+    </script>
+</body>
+</html>
+
+    Utiliza variables de tipo DOM para:
+    a.- Seleccionar el elemento con el id "header" e interactua con su estilo para cambiar el tamaño de letra a 60px
+    b.- Selecciona el elemento con el id "subtitle" y cambia el color de letra a gris (gray)
+    c.- Selecciona el elemento con la clase "content" y agrega un color de fondo un poco mas obscuro al background
+    d.- Selecciona el elemento con la clase "div" y cambia el color de fondo del elemento 
+(Guarda el archivo en la carpeta JavaScript-JQuery del repositorio remoto con el nombre 1.-JS_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+2.- (.pptx 17)
+    Realiza una función con parámetros que retorne e imprima el resultado de la siguiente operación:
+    x = a * b * (- b - c) + a
+    Donde los valores son:
+        - a = 1
+        - b = 4
+        - c = 3
+    Donde los valores de las variables sean dados a llamar la función fuera de esta
+(Guarda el archivo en la carpeta JavaScript-JQuery del repositorio remoto con el nombre 2.-JS_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+3.-(.pptx 21)
+    Convierte la función contenida en el siguiente HTML en una función Arrow:
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function mensaje(texto1, texto2, texto3){
+            var cadena = texto1 + texto2 + texto3;
+             console.log("El mensaje dice: ", cadena);
+        }
+        mensaje("Este es ", "un mensaje ", "desde una función")
+    </script>
+</body>
+</html>
+(Guarda el archivo en la carpeta JavaScript-JQuery del repositorio remoto con el nombre 3.-JS_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+4.- (.pptx 34)
+    Utilizando el evento DOM onclick o directamente desde JS, genera las siguientes funciones para ser ejecutadas al hacer clic en cada uno     de los botones: 
+    a.- Una función que cambie de color el cuadrado a uno mas claro del mismo color al hacer clic en el botón
+    b.- Una función que cambie el ancho del cuadrado al hacer clic en el botón 
+    c.- Una función que cambie el alto del cuadrado al hacer clic en el botón 
+    Utiliza el siguiente HTML:
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        button{
+            background-color: rgb(137, 133, 133);
+            border: 0;
+            color: white;
+            font-size: 20px;
+        }
+
+        button:hover{
+            background-color: rgb(90, 88, 88); 
+            cursor: pointer;
+            border: 1px;
+            border-color: azure;
+        }
+
+        body{
+            background-color: rgb(110, 110, 110);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cuadro1" style="width: 200px; height: 200px; background: red;"></div>
+    <button style="display:block; margin-top: 10px; height: 30px; width: 200px;">Cambiar color</button>
+    <div id="cuadro2" style="width: 200px; height: 200px; background: rgb(126, 6, 6); margin-top: 10px;"></div>
+    <button style="display:block; margin-top: 10px; height: 30px; width: 200px;">Cambiar width</button>
+    <div id="cuadro3" style="width: 200px; height: 200px; background: rgb(81, 6, 6); margin-top: 10px;"></div>
+    <button style="display:block; margin-top: 10px; height: 30px; width: 200px;">Cambiar height</button>
+
+    <script>
+        /*Aquí puedes escribir tu código JS*/
+    </script>
+</body>
+</html>
+(Guarda el archivo en la carpeta JavaScript-JQuery del repositorio remoto con el nombre 4.-JS_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+5.- (.pptx 40)
+    Crea un reloj JavaScript que marque inicialmente 01:00 (es decir, 1 minuto) y que marche hacia atrás (00:59, 00:58, 00:57 … etc.) hasta     llegar a 00:00. Cuando llegue a 00:00 debe deternerse y mostrar el mensaje: “Tu tiempo ha terminado”
+(Guarda el archivo en la carpeta JavaScript-JQuery del repositorio remoto con el nombre 5.-JS_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+Ejercicios - Introducción a JQuery.pptx
+-----------------------------------------------------------------------------------------
+6.- (.pptx 26)
+    En el siguiente HTML: 
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width: 100px; height: 100px; position: absolute; background-color: black;"></div>
+    <div style="width: 100px; height: 100px; position: absolute; margin-left: 110px; background-color: aquamarine;"></div>
+    <div style="width: 100px; height: 100px; position: absolute; margin-left: 220px; background-color: black;"></div>
+    <div style="width: 100px; height: 100px; position: absolute; margin-top: 110px; background-color: aquamarine;"></div>
+    <div style="width: 100px; height: 100px; position: absolute; margin-top: 110px; margin-left: 110px; background-color: black;"></div>
+    <div style="width: 100px; height: 100px; position: absolute; margin-top: 110px; margin-left: 220px; background-color: aquamarine;"></div>
+</body>
+</html>
+
+    Utiliza eventos de tipo click() para crear una o mas funciones que:
+    a.- Al hacer clic en cualquier cuadro negro, este cambie de color a "aquamarine" como los demás (solo al que se le ha hecho clic)
+    b.- Al hacer clic en cualquier cuadro "aquamarine" este desaparezca 
+(Guarda el archivo en la carpeta JavaScript-JQuery del repositorio remoto con el nombre 6.-JQuery_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+7.- (.pptx 30)
+    En el siguiente HTML:
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+   <h1 style= font-family:sans-serif>Crear cuenta</h1>
+   <form>
+        <label>Tu nombre</label>
+        <br>
+        <input type="text">
+        <br>
+        <label>Correo electrónico</label>
+        <br>
+        <input type="text" placeholder="">
+        <br>
+        <label>Contraseña</label>
+        <br>
+        <input type="password">
+        <br>
+        <label>Vuelve a escribir la contraseña</label>
+        <br>
+        <input type="password">
+        <br>
+        <input type="submit" value="Crea tu cuenta">
+   </form>
+</div>
+</body>
+</html>
+    Con JQuery:
+    a.- Al formulario mostrado, agrega clases con JQuery para los elementos contenidos 
+    b.- Utilizando estas clases, establece el diseño del formulario para que los elementos desde JQuery con la propiedad "css"
+        - Todos los elementos deben de quedar centrados y separados a la misma distancia 
+        - El boton de submit debe tener un color: #febd69
+        - Crear un margen solido de color gris para el div que separe los elementos existentes del resto del body de la pagina
+(Guarda el archivo en la carpeta JavaScript-JQuery del repositorio remoto con el nombre 7.-JQuery_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+8.- (.pptx 38)
+    En el siguiente HTML: 
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{
+            text-align: center;
+            margin-top: 200px;
+            margin-bottom: 20px;
+            font-family: sans-serif;
+            font-size: 80px;
+        }
+
+        button{
+            margin-left: 500px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ingresa al sitio</h1>
+    <button>Empezar</button>
+</body>
+</html>
+    Con JQuery:
+    a.- Modifica el texto de "Ingresa al sitio" de la pagina por "Bienvenido al sitio"
+    b.- Agrega un nuevo boton con el mismo diseño del boton creado debajo que diga "Informacion"
+    c.- Antes del <h1> agrega un texto pequeño que diga "www.misitio.com" 
+(Guarda el archivo en la carpeta JavaScript-JQuery del repositorio remoto con el nombre 8.-JQuery_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+9.- (.pptx 43)
+    Diseña un código JQuery que elimine y otro que oculte y muestre el texto contenido debajo de los botones del siguiente HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #boton1{
+            position: relative;
+            margin-top: 0px;
+            margin-left: 465px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: rgb(115, 115, 140);
+            border: 0;
+            color: white; 
+        }
+        #boton2{
+            position: relative;
+            margin-bottom: 10px;
+            margin-top: 250px;
+            margin-left: 465px;
+            padding-left: 138px;
+            padding-right: 138px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: rgb(115, 115, 140);
+            border: 0;
+            color: white; 
+            text-align: center;
+            
+        }
+
+        button:hover{
+            cursor: pointer;
+        }
+
+        p{
+            text-align: center;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="boton2">Eliminar</button>
+    <button id="boton1">Revelar/Ocultar texto</button>
+    <p>Este es un texto visible que es afectado por los botones,<br>
+        uno hace que desaparezca, mientras el otro lo elimina hasta recargar la pagina</p>
+</body>
+</html>
+    Con JQuery:
+    a.- Diseña un código que al hacer clic en el boton "Eliminar" elimine el texto debajo de los botones 
+    b.- Diseña un código que al hacer clic en el botón "Revelar/Ocultar Texto"oculte el texto debajo de los botones 
+(Guarda el archivo en la carpeta JavaScript-JQuery del repositorio remoto con el nombre 9.-JQuery_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+10.- (.pptx 56)
+    a.- Crea un archivo de texto (.txt) que contenga el siguiente mensaje:
+
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+
+    Utilizando el siguiente HTML: 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: rgb(237, 75, 75);
+            font-size: 150%;
+        }
+        
+        h1{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+        }
+
+        button{
+            margin-left: 540px ;
+            padding: 10px;
+            background-color: rgb(249, 138, 138);
+            border: 0;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        button:hover{
+            cursor: pointer;
+            background-color: rgb(249, 163, 163);
+        }
+
+        p{
+            text-align: center;
+            color: white;
+            font-size: 80%;
+        }
+
+        div{
+            border: 1px solid white;
+            margin-top: 50px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Traductor de texto</h1>
+    <button>Haz clic para traducir el texto</button>
+    <div>
+    <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae       ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+    </div>
+</body>
+</html>
+
+        Con JQuery:
+        a.- Crea un método load que al hacer clic en el botón, cambie el texto contenido en <p> por el texto contenido en el archivo .txt           antes generado, sustituyendo así el HTML anterior
+        b.- Completado el método, realizar un callback que muestre una alerta que diga "Texto traducido correctamente"
+        c.- Crear de igual manera una alterta en caso de error de carga 
+(Guarda el archivo en la carpeta JavaScript-JQuery del repositorio remoto con el nombre 10.-JQuery_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+11.- (.pptx 64)
+    Con el siguiente formulario HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>  
+
+        h1{
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        #label1{
+            position: absolute;
+            padding-left: 570px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #label2{
+            padding-left: 593px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #input1{
+            padding-left: 100px;
+            margin-left: 500px;
+        }
+
+        #input2 {
+            padding-left: 100px;
+            margin-left: 500px;
+        }
+
+        #submit{
+            margin-left: 589px;
+            margin-top: 10px;
+            margin-bottom: 180px;
+            background-color: rgb(85, 85, 248);
+            color: white;
+            border: none;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+   <h1 style= font-family:sans-serif>Inicia Sesión</h1>
+   <form>
+        <label id="label1">Correo electrónico</label>
+        <br>
+        <input id="input1" type="text" placeholder="">
+        <br>
+        <label id="label2">Contraseña</label>
+        <br>
+        <input id="input2" type="password">
+        <br>
+        <input id="submit" type="submit" value="Inicia Sesión">
+   </form>
+</div>
+</body>
+</html>
+
+    Con JQuery:
+    a.- Utilizando el método get o post, crea una alerta emergente al momento de enviar el formulario, que contenga un mensaje compuesto de:
+        - Lo ingresado en el campo "Correo electrónico" especificando de que campo se trata
+        - Li ingresado en el campo "Contraseña" especidicando de que campo se trata
+        - El estado de la alerta 
+(Guarda el archivo en la carpeta JavaScript-JQuery del repositorio remoto con el nombre 11.-JQuery_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
