@@ -67,7 +67,7 @@ Ejercicios - Introducción a CSS.pptx
         - g: #4285f4
         - l: #34a853
         - e: #ea4335
-    Nota que en archivo HTML proporcionado, cada una de las letras del título se encuentran separadas con <span>, esto nos da la                posibilidad de trabajar con sus id de forma independiente para asignarles estilos individuales
+    Nota que en archivo HTML proporcionado, cada una de las letras del título se encuentran separadas con <span>, esto nos da la posibilidad de trabajar con sus id de forma independiente para asignarles estilos individuales
     Sobre el archivo anterior creado:
     a.- Utiliza el pseudo-elemento first:letter para asignar el color de letra a la primera letra del título (G)
     b.- Da el estilo de color a cada una de las letras del título, para obtener un logo igual al desplegado en https://www.google.com
