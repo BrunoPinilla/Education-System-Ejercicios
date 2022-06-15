@@ -88,7 +88,7 @@ Ejercicios - Introducción a JavaScript.pptx
 (Guarda el archivo en la carpeta JavaScript-JQuery del repositorio remoto con el nombre 3.-JS_Nombre_Apellido1_Apellido2.html)
 -----------------------------------------------------------------------------------------
 4.- (.pptx 34)
-    Utilizando el evento DOM onclick o directamente desde JS, genera las siguientes funciones para ser ejecutadas al hacer clic en cada uno     de los botones: 
+    Utilizando el evento DOM onclick o directamente desde JS, genera las siguientes funciones para ser ejecutadas al hacer clic en cada uno de los botones: 
     a.- Una función que cambie de color el cuadrado a uno mas claro del mismo color al hacer clic en el botón
     b.- Una función que cambie el ancho del cuadrado al hacer clic en el botón 
     c.- Una función que cambie el alto del cuadrado al hacer clic en el botón 
@@ -137,7 +137,7 @@ Ejercicios - Introducción a JavaScript.pptx
 (Guarda el archivo en la carpeta JavaScript-JQuery del repositorio remoto con el nombre 4.-JS_Nombre_Apellido1_Apellido2.html)
 -----------------------------------------------------------------------------------------
 5.- (.pptx 40)
-    Crea un reloj JavaScript que marque inicialmente 01:00 (es decir, 1 minuto) y que marche hacia atrás (00:59, 00:58, 00:57 … etc.) hasta     llegar a 00:00. Cuando llegue a 00:00 debe deternerse y mostrar el mensaje: “Tu tiempo ha terminado”
+    Crea un reloj JavaScript que marque inicialmente 01:00 (es decir, 1 minuto) y que marche hacia atrás (00:59, 00:58, 00:57 … etc.) hasta llegar a 00:00. Cuando llegue a 00:00 debe deternerse y mostrar el mensaje: “Tu tiempo ha terminado”
 (Guarda el archivo en la carpeta JavaScript-JQuery del repositorio remoto con el nombre 5.-JS_Nombre_Apellido1_Apellido2.html)
 -----------------------------------------------------------------------------------------
 Ejercicios - Introducción a JQuery.pptx
@@ -369,13 +369,13 @@ Ejercicios - Introducción a JQuery.pptx
     <h1>Traductor de texto</h1>
     <button>Haz clic para traducir el texto</button>
     <div>
-    <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae       ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+    <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
     </div>
 </body>
 </html>
 
         Con JQuery:
-        a.- Crea un método load que al hacer clic en el botón, cambie el texto contenido en <p> por el texto contenido en el archivo .txt           antes generado, sustituyendo así el HTML anterior
+        a.- Crea un método load que al hacer clic en el botón, cambie el texto contenido en <p> por el texto contenido en el archivo .txt antes generado, sustituyendo así el HTML anterior
         b.- Completado el método, realizar un callback que muestre una alerta que diga "Texto traducido correctamente"
         c.- Crear de igual manera una alterta en caso de error de carga 
 (Guarda el archivo en la carpeta JavaScript-JQuery del repositorio remoto con el nombre 10.-JQuery_Nombre_Apellido1_Apellido2.html)
