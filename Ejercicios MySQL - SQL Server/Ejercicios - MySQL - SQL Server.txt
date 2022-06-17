@@ -1,0 +1,126 @@
+Ejercicios - Introducción a Bases de Datos.pptx
+-----------------------------------------------------------------------------------------
+1.- (.pptx 21)
+    Desde CMD, crea una base de datos con nombre "insumosDB" y:
+    a.- Comprueba que se ha creado correctamente listando las bases de datos existentes
+    b.- Crea una tabla con el nombre "insumos" dentro de la BD, estructurada por:
+        - id (INT(15), auto incrementable, PRIMARY KEY)
+        - codigo (VARCHAR(50))
+        - nombre (VARCHAR(60))
+        - clase (VARCHAR(25))
+        - color (VARCHAR(20))
+        - origen (VARCHAR(40)) NULL
+    c.- Verifica la estructura de la tabla creada 
+    Realiza una captura de pantalla de la estructura 
+(Guarda la capura en la carpeta MySQL-SQL Server en el repositorio remoto en como 1.- MySQL_Nombre_Apellido1_Apellido2)
+-----------------------------------------------------------------------------------------
+2.- (.pptx 33)
+    En la tabla "insumos" antes creada:
+    a.- Crea 22 registros llenando todos los campos contenidos (Nota: La tabla hace referencia a inusmos necesarios para armar un vahículo)
+    b.- Consulta los registros contenidos en los campos (nombre, clase y origen) de la tabla limitando la consulta a 10 registros 
+    c.- Actualiza los registros con el id (3, 8 y 19) cambiando (código y color) por otros valores
+    d.- Elimina los ultimos dos registros de la tabla en base a su id
+    Realiza una captura de pantalla de cada uno de los comandos y resultados, ordénalos en un documento de word y expórtalos a PDF
+(Guarda el documento PDF en la carpeta MySQL-SQL Server en el repositorio remoto en como 2.- MySQL_Nombre_Apellido1_Apellido2)
+-----------------------------------------------------------------------------------------
+3.- (.pptx 35)
+    En la tabla "insumos":
+    a.- Agrega una nueva columna con el nombre "año" que sea de tipo (INT(4))
+    b.- Elimina la columna "origen" de la tabla, así como todos los registros de esta 
+    c.- Crea una nueva columna con el nombre "fabricacion" que sutituirá la antes eliminada 
+    d.- Llena la columna "fabricacion" con valores para cada uno de los registros existentes 
+    Realiza una captura de pantalla de cada uno de los comandos y resultados, ordénalos en un documento de word y expórtalos a PDF
+(Guarda el documento PDF en la carpeta MySQL-SQL Server en el repositorio remoto en como 3.- MySQL_Nombre_Apellido1_Apellido2)
+-----------------------------------------------------------------------------------------
+4.- (.pptx 42)
+    En phpMyAdmin:
+    a.- Crea una nueva base de datos llamada "produccion"
+    b.- Crea una tabla llamada "productos" estructurada por: 
+        - id (INT(15), auto incrementable, PRIMARY KEY)
+        - codigoProducto (VARCHAR(40))
+        - nombreProducto (VARCHAR(50))
+        - modeloProducto (INT(4))
+        - cantidadProducto (INT(1000))
+        - fechaProduccion (DATE) NULL
+    c.- Crea 30 registros para la tabla "productos"
+    d.- Crea una tabla relacionada llamada "traspasos" estructurada por:
+        - id (INT(15), auto incrementable, PRIMARY KEY)
+        - productoId (INT(15), auto incrementable, FOREIGN KEY)
+        - nombreDivision (VARCHAR(50))
+        - fechaTraspaso (DATE)
+        - cantidadTraspaso (INT(1000))
+    e.- Crea 20 resgistros para la tabla "traspasos"
+    Realiza capturas de pantalla de todos los registros contenidos en:
+        - "productos"
+        - "traspasos"
+        Ordena las capturas en un documento de word y expórtalas a PDF
+(Guarda el documento PDF en la carpeta MySQL-SQL Server en el repositorio remoto en como 4.- MySQL_Nombre_Apellido1_Apellido2)
+-----------------------------------------------------------------------------------------
+5.- (.pptx 49)
+    En phpMyAdmin:
+    a.- Realiza una consulta que devuelva el (Nombre del producto, Codigo de producto, Modelo de producto y Cantidad de traspasos)
+        - Ordena por Código de producto alfabeticamente
+    b.- Realiza una consulta que devuelva el (Nombre del producto, Codigo de producto, Fecha de traspaso y Fecha de produccion)
+        - Ordena por Fecha de produccion de la mas reciente a la mas antigua 
+    c.- Realiza una consulta que devuelva los productos con una cantidad de traspasos mayor a 10 
+    Realiza una captura de pantalla de cada uno de los comandos y resultados, ordénalos en un documento de word y expórtalos a PDF
+(Guarda el documento PDF en la carpeta MySQL-SQL Server en el repositorio remoto en como 5.- MySQL_Nombre_Apellido1_Apellido2)
+-----------------------------------------------------------------------------------------
+6.- (.pptx 53)
+    En phpMyAdmin:
+    Resuelve las siguientes consultas utilizando Left y Right Join 
+    a.- Realiza una consulta que devuelva todos los productos que no tienen traspasos 
+    b.- Realiza una consulta que devuelva el nombre de la division que realizo traspasos de productos cuya cantidad de producto es mayor a 2
+    c.- Realiza una consulta que devuelva la fecha de produccion y fecha de traspaso en base al id de los productos
+Realiza una captura de pantalla de cada uno de los comandos y resultados, ordénalos en un documento de word y expórtalos a PDF
+(Guarda el documento PDF en la carpeta MySQL-SQL Server en el repositorio remoto en como 6.- MySQL_Nombre_Apellido1_Apellido2)
+-----------------------------------------------------------------------------------------
+7.- (.pptx 57)
+    En phpMyAdmin:
+    a.- Realiza una consulta que devuelva todos los productos que cuenten entre 2 y 4 traspasos 
+    b.- Realiza una consulta que devuelva los productos que contengan una letra "a" en sus nombres 
+    c.- Realiza una consulta que devuelva el codigo del producto y el modelo de producto en una sola columna de los productos que contengan     una letra "e" en sus nombres 
+Realiza una captura de pantalla de cada uno de los comandos y resultados, ordénalos en un documento de word y expórtalos a PDF
+(Guarda el documento PDF en la carpeta MySQL-SQL Server en el repositorio remoto en como 7.- MySQL_Nombre_Apellido1_Apellido2)
+-----------------------------------------------------------------------------------------
+8.- (.pptx 63)
+    En phpMyAdmin:
+    En la tabla "traspasos":
+    a.- Realiza una consulta que cuente la cantidad de productos que han tenido traspasos 
+    b.- Realiza una consulta que muestre la division que mas traspasos ha tenido 
+Realiza una captura de pantalla de cada uno de los comandos y resultados, ordénalos en un documento de word y expórtalos a PDF
+(Guarda el documento PDF en la carpeta MySQL-SQL Server en el repositorio remoto en como 8.- MySQL_Nombre_Apellido1_Apellido2)
+-----------------------------------------------------------------------------------------
+9.- (.pptx 74)
+    En phpMyAdmin:
+    a.- Realiza una consulta que devuelva todos los productos traspasado por una division en específico (Sin usar INNER JOIN)
+    b.- Realiza una consulta que devuelva el codigo de los productos que cuenten con una cantidad mayor a 5 
+    c.- Realiza una consulta que devuelva el nombre de los productos que NO cuenten con una cantidad mayor a 5
+Realiza una captura de pantalla de cada uno de los comandos y resultados, ordénalos en un documento de word y expórtalos a PDF
+(Guarda el documento PDF en la carpeta MySQL-SQL Server en el repositorio remoto en como 9.- MySQL_Nombre_Apellido1_Apellido2)
+-----------------------------------------------------------------------------------------
+10.- (.pptx 86)
+    En phpMyAdmin:
+    a.- Crea un trigger que registre cada que un traspaso es registrado, que almacene el (productoId, nombreDivision y cantidadTraspaso)
+    b.- Crea un trigger que registre cada que se realice una actualización en algun producto, mostrando el estado anterior y actual en cada     uno de sus campos
+    c.- Crea un trigger que registre cada que un producto es eliminado, mostrando los campos: (id, codigo, nombre y cantidad) del producto      eliminado
+Realiza una captura de pantalla de cada uno de los comandos y resultados, ordénalos en un documento de word y expórtalos a PDF
+(Guarda el documento PDF en la carpeta MySQL-SQL Server en el repositorio remoto en como 10.- MySQL_Nombre_Apellido1_Apellido2)
+-----------------------------------------------------------------------------------------
+11.- (.pptx 90)
+    En phpMyAdmin:
+    a.- Crea un procedimiento almacenado que inserte un nuevo producto 
+    b.- Uno que consulte el numero de productos existentes en la tabla "productos"
+    c.- Uno que al pasarle el codigo de producto nos devuelva (nombreProducto, modeloProducto)
+    d.- Uno que al pasarle el id del producto nos devuelva la (cantidadTraspaso y fechaTraspaso)
+Realiza una captura de pantalla de cada uno de los comandos y resultados, ordénalos en un documento de word y expórtalos a PDF
+(Guarda el documento PDF en la carpeta MySQL-SQL Server en el repositorio remoto en como 11.- MySQL_Nombre_Apellido1_Apellido2)
+-----------------------------------------------------------------------------------------
+12.- (.pptx 92)
+    En phpMyAdmin:
+    a.- Raliza una vista de un INNER JOIN de ambas tablas 
+    b.- Realiza una vista de muestre los productos con cantidad menor o igual 1
+    c.- Realiza una vista que muestra los traspasos ordenados de la fecha mas nueva a la mas antigua y que tengan una cantidadTraspaso          mayor a 5
+Realiza una captura de pantalla de cada uno de los comandos y resultados, ordénalos en un documento de word y expórtalos a PDF
+(Guarda el documento PDF en la carpeta MySQL-SQL Server en el repositorio remoto en como 12.- MySQL_Nombre_Apellido1_Apellido2)
+-----------------------------------------------------------------------------------------
