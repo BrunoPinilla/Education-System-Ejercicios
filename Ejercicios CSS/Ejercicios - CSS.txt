@@ -53,13 +53,31 @@ Ejercicios - Introducción a CSS.pptx
     b.- Posiciona cada uno de los elementos de forma relativa y centralos como se muestra en https://www.google.com
 (Guarda el archivo (Guardar como) en la carpeta CSS del repositorio remoto con el nombre 4.-CSS_Nombre_Apellido1_Apellido2.html)
 -----------------------------------------------------------------------------------------
-5.- (.pptx 36 )
-    Sobre el archivo anterior creado:
-    a.- Crea una pseudo-clase para el text input, cuando el mouse es posicionado sobre el como sucede en https://www.google.com
-    b.- Crea una pseudo-clase para los botones, cuando el mouse es posicionado sobre ellos como sucede en https://www.google.com
+5.- (.pptx 32)
+    Realiza una sola instrucción CSS que de estilo a los elementos hijos del <div> del siguiente HTML:
+
+        <div>
+        <h1>Heading</h1>
+        <h3>Subtitle</h3>
+        <p>Texto dentro de la pagina</p>
+    </div>
+        <p>Texto numero 2 dentro de la pagina</p>
+        <form>
+            <input type="text">
+        </form>
+
+        a.- Centra el conteido de los elementos hijos
+        b.- Da un color de texto diferente a los elementos hijos 
+        c.- Cambia el tipo de letra a los elementos hijos
 (Guarda el archivo (Guardar como) en la carpeta CSS del repositorio remoto con el nombre 5.-CSS_Nombre_Apellido1_Apellido2.html)
 -----------------------------------------------------------------------------------------
-6.- (.pptx 39)
+6.- (.pptx 36 )
+    Continuando con el archivo de Google del ejercicio 4.- 
+    a.- Crea una pseudo-clase para el text input, cuando el mouse es posicionado sobre el como sucede en https://www.google.com
+    b.- Crea una pseudo-clase para los botones, cuando el mouse es posicionado sobre ellos como sucede en https://www.google.com
+(Guarda el archivo (Guardar como) en la carpeta CSS del repositorio remoto con el nombre 6.-CSS_Nombre_Apellido1_Apellido2.html)
+-----------------------------------------------------------------------------------------
+7.- (.pptx 39)
     Observa como se componen las letras del título de https://www.google.com, los colores utilizados son los siguientes:
         - G: #4285f4
         - o: #ea4335
@@ -67,22 +85,22 @@ Ejercicios - Introducción a CSS.pptx
         - g: #4285f4
         - l: #34a853
         - e: #ea4335
-    Nota que en archivo HTML proporcionado, cada una de las letras del título se encuentran separadas con <span>, esto nos da la posibilidad de trabajar con sus id de forma independiente para asignarles estilos individuales
+    Nota que en archivo HTML proporcionado, cada una de las letras del título se encuentran separadas con <span>, esto nos da la                posibilidad de trabajar con sus id de forma independiente para asignarles estilos individuales
     Sobre el archivo anterior creado:
     a.- Utiliza el pseudo-elemento first:letter para asignar el color de letra a la primera letra del título (G)
     b.- Da el estilo de color a cada una de las letras del título, para obtener un logo igual al desplegado en https://www.google.com
-(Guarda el archivo (Guardar como) en la carpeta CSS del repositorio remoto con el nombre 6.-CSS_Nombre_Apellido1_Apellido2.html)
+(Guarda el archivo (Guardar como) en la carpeta CSS del repositorio remoto con el nombre 7.-CSS_Nombre_Apellido1_Apellido2.html)
 -----------------------------------------------------------------------------------------
 
 Nota: Dentro de la carpeta CSS del repositorio, encontraras un archivo llamado "Recurso - Interface Google.JPG" esta es una imagen de referencia como debió quedar el estilo de la página desdpués de realizar todos estos ejercicios
 
 -----------------------------------------------------------------------------------------
-7.- (.pptx 45)
+8.- (.pptx 45)
     Con el siguiente HTML, crea una barra de navegación vertical con las siguientes características: 
     a.- Que contenga un hover cuando se posiciona sobre un elemento del menú 
     b.- Que al encontrarse activo en elemento de la lista se le asigne un estilo 
     c.- Que contenga un display: block cada uno de los elementos del menú
-(Guarda el archivo en la carpeta CSS del repositorio remoto con el nombre 7.-CSS_Nombre_Apellido1_Apellido2.html)
+(Guarda el archivo en la carpeta CSS del repositorio remoto con el nombre 8.-CSS_Nombre_Apellido1_Apellido2.html)
 
     <!DOCTYPE html>
 <html lang="en">
@@ -123,11 +141,11 @@ Nota: Dentro de la carpeta CSS del repositorio, encontraras un archivo llamado "
 </body>
 </html>
 -----------------------------------------------------------------------------------------
-8.- (.pptx 53)
+9.- (.pptx 53)
     Con el siguiente HTML, genera una/s regla de estilo CSS para dar un formato igual a todos los elementos contenidos en el <body> 
     a.- Puedes utilizar !important 
     b.- Utiliza las reglas de cascada CSS para acomodar los estilos 
-(Guarda el archivo en la carpeta CSS del repositorio remoto con el nombre 8.-CSS_Nombre_Apellido1_Apellido2.html)
+(Guarda el archivo en la carpeta CSS del repositorio remoto con el nombre 9.-CSS_Nombre_Apellido1_Apellido2.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -174,7 +192,7 @@ Nota: Dentro de la carpeta CSS del repositorio, encontraras un archivo llamado "
 -----------------------------------------------------------------------------------------
 Ejercicios SASS.pptx
 -----------------------------------------------------------------------------------------
-9.- (.pptx 10)
+10.- (.pptx 10)
     En SASS realiza un Nest para dar estilo al siguiente HTML:
 
     <!DOCTYPE html>
@@ -211,9 +229,9 @@ Ejercicios SASS.pptx
         - Un hover para cambiar el color cuando se posiciona por encima del elemento  
     c.- Al elemento <a> le asignes: 
         - Un padding 
-(Guarda el archivo en la carpeta CSS del repositorio remoto con el nombre 9.-SASS_Nombre_Apellido1_Apellido2.html)
+(Guarda el archivo en la carpeta CSS del repositorio remoto con el nombre 10.-SASS_Nombre_Apellido1_Apellido2.html)
 -----------------------------------------------------------------------------------------
-10.- (.pptx 15)
+11.- (.pptx 15)
     Con el siguiente HTML:
 
     <!DOCTYPE html>
@@ -239,5 +257,5 @@ Ejercicios SASS.pptx
             - El align de texto a "center"
             - Un color de letra diferente a negro 
     c.- Con @include, agrega el mixing antes creado a todos los textos del HTML 
-(Guarda el archivo en la carpeta CSS del repositorio remoto con el nombre 10.-SASS_Nombre_Apellido1_Apellido2.html)
+(Guarda el archivo en la carpeta CSS del repositorio remoto con el nombre 11.-SASS_Nombre_Apellido1_Apellido2.html)
 -----------------------------------------------------------------------------------------
