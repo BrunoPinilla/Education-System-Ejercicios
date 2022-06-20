@@ -143,9 +143,18 @@ Ejercicios - PHP Orientado a Objetos
     c.- Instancia un objeto de la clase "classSTU"e imprime lo contendido en el método "transaccion"
 (Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 17.-PHPObj_Nombre_Apellido1_Apellido2.php)
 -----------------------------------------------------------------------------------------
+18.- (.pptx)
+    Crea dos carpetas llamadas "carpetaalfa" y "carpetabeta"
+    a.- En "carpetaalfa" crea un archivo PHP que contenga una clase llamada "mapeo" que contenga un método llamado "imprimir" que imprima el mensaje "map404"
+    b.- En "carpetabeta" crea un archivo PHP que contenga una clase y método con el mismo nombre que imprima el mensaje "map202" 
+    c.- Utiliando name space identifica cada archivo con un nombre dependiendo de su localización 
+    d.- Crea un nuevo archivo PHP fuera de las carpetas que utilice la clase "mapeo" de la "carpetabeta"
+    e.- Instancia un objeto de la clase "mapeo" y ejecuta el método "imprimir"
+(Guarda los archivos en una carpeta comprimida y guárdala en la carpeta PHP del repositorio remoto con el nombre 18.-PHPObj_Nombre_Apellido1_Apellido2.zip)
+-----------------------------------------------------------------------------------------
 Ejercicios - PHP Conexión con MySQL 
 -----------------------------------------------------------------------------------------
-18.- (pptx. 13)
+19.- (pptx. 13)
     a.- Crea una nueva base de datos en phpMyAdmin con el nombre de "db_fastfood"
     b.- Dentro de PHP, crea una clase para la conexión llamada "classConexion" que contenga las propiedades necesarias para la conexión con la base de datos
     c.- Crea un método constructor que contenga los parámetros necesarios para crear una conexión PDO con la base de datos antes creada
@@ -153,6 +162,6 @@ Ejercicios - PHP Conexión con MySQL
     e.- De no lograrse establecer una conexión con la base de datos, crea un línea de código que imprima "error en la conexión" 
     f.- Manda llamar la conexión antes creada y realiza una prueba buscando obtener el mensaje de "conexion exitosa"
         - Realiza una captura de pantalla del mensaje arrojado en el navegador 
-(Guarda la captura de pantalla en el repositorio remoto con el nombre 18.- PHPConexion_Nombre_Apellido1_Apellido2.JPG)
-(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 18.-PHPConexion_Nombre_Apellido1_Apellido2.php)
+(Guarda la captura de pantalla en el repositorio remoto con el nombre 19.- PHPConexion_Nombre_Apellido1_Apellido2.JPG)
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 19.-PHPConexion_Nombre_Apellido1_Apellido2.php)
 -----------------------------------------------------------------------------------------
