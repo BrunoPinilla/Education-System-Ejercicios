@@ -1,0 +1,158 @@
+Ejercicios - Introducción a PHP 
+-----------------------------------------------------------------------------------------
+1.- (.pptx 21)
+    Con PHP:
+    Realiza una condicional que muestre 
+    a.- El día de la semana como lunes si el día es monday 
+    b.- El día de la semana como martes si el día es tuesday 
+    c.- El día de la semana como miercoles si el día es wednesday 
+    d.- El día de la semana como jueves si el día es thursday 
+    e.- El día de la semana como viernes si el día es friday 
+    f.- De no ser así que muestre el mensaje de fin de semana 
+    Utiliza 3 if y 3 switch
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 1.-PHP_Nombre_Apellido1_Apellido2.php)
+----------------------------------------------------------------------------------------
+2.- (.pptx 25)
+    Con PHP:
+    Realiza un ciclo While que:
+    a.- Calcule el factorial de un número (Utiliza 5 como ejemplo)
+    b.- Cuente en forma descendente del 100 hasta el 50 
+    Realiza un ciclo Do While que: 
+    a.- A partir de una variable contador que tome valores del 1 al 5, muestre el doble del valor del contador (2, 4, 6, 8, 10)
+    b.- Calcula la media entre los números impares del 5 al 13, realizando sumas sucesivas, culminando con la división de la suma de todos ellos entre el número de números sumados
+    Realiza un ciclo For que: 
+    a.- A de una variable de control $i que toma valores de 50 a 500 de 50 en 50, muestre el resultado de dividir la de control entre 20
+    b.- Imprima el mensaje "ciclo" + el número de ciclo que se ha ejecutado, partiendo de 1 hasta llegar a 15 ciclos
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 2.-PHP_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
+3.- (.pptx 33)
+    Con PHP:
+    a.- Utilizando rsort (que se utiliza para ordenar datos alfabéticamente, pero de forma invertida). Crea un arreglo que contenga 10 datos y un print_r       que imprima los datos del arreglo ordenados alfabéticamente de forma invertida
+    b.- Partiendo de el arreglo anterior, agrega una función que elimine los valores a partir del valor [7]
+    c.- Partiendo de el arreglo anterior, divide el arreglo en bloques de 1 
+    d.- Crea 2 arreglos de 5 datos cada uno y combinalos para tener uno solo
+    e.- Partiendo del arreglo combinado anterior, busca la posición de un dato dentro de el buscando por su valor 
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 3.-PHP_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
+4.- (.pptx 36)
+    Con PHP: 
+    a.- Crea un arreglo asociativo de 10 valores y:
+        - Imprime los datos contenidos 
+        - Imprime los valores de los datos contenidos 
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 4.-PHP_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
+5.- (.pptx 38)
+    Con PHP: 
+    a.- Utiliando una función, realiza un programa que muestre:
+        - El nombre 
+        - El apellido 
+        - La edad
+        De un asociado, con el formato:
+        - Nombre: ***** Apellido ***** Edad ****
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 5.-PHP_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
+Ejercicios - PHP Orientado a Objetos 
+-----------------------------------------------------------------------------------------
+6.- (.pptx 12)
+    Dentro de una clase llamada "datosComapñia":
+    a.- Crea un atributo de tipo público que tenga un valor = "Denso"
+    b.- Crea un método de tipo público llamado "nombreComapñia "que retorne el valor del atributo 
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 6.-PHPObj_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
+7.- (.pptx 13)
+    Utilizando la clase "datosComapñia" antes creada
+    a.- Crea/Instancia un objeto de nombre "objComapñia"
+    b.- Utilizando el objeto, manda llamar al método "nombreComapñia" e imprime el valor de este
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 7.-PHPObj_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
+8.- (.pptx 14)
+    Dentro de una clase llamada "analisisUno"
+    a.- Crea una variable de nombre "peso" con el valor de "dentro del reglamento"
+    b.- Utiliza un método con nombre "parametrosMedidos" que:
+        - Cuente con un if que determine si el peso es menor a 5000
+        - Si este es el caso, que retorne el mensaje de "peso" con $this
+    c.- Crea un nuevo objeto para "analisisUno"
+    d.- Imprime lo obtenido en "parametrosMedidos" a traves del objeto con 4000 como valor entre los ()
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 8.-PHPObj_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
+9.- (.pptx 15)
+    Utilizando la clase anterior:
+    a.- Crea un nuevo método dentro de la clase llamado "tareParametros" que mande llamar al método "parametrosMedidos" en el return
+    b.- Crea/Instancia un nuevo objeto de nombre "objPeso" que imprima lo contenido en el método "tareParametros" con el valor de 2000
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 9.-PHPObj_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
+10.- (.pptx 19)
+    a.- Crea una función que calcule la raíz cuadrada de un número donde:
+        - Se reciban solo valores de entrada de tipo float
+        - Retorne valores de tipo float al terminar la operación 
+        - Se imprima el resultado con el mensaje "La raíz es: " + el resultado obtenido
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 10.-PHPObj_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
+11.- (.pptx 23)
+    a.-Crea un arreglo dentro del método de una clase que contenga 8 valores de tipo string
+    b.- Con un objeto, imprime el arreglo usando var_dump, este deberá ser de tipo arreglo 
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 11.-PHPObj_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
+12.- (.pptx 25)
+    a.- Crea una clase padre con el nombre "codigoPrincipal"
+    b.- Crea un método denteo de esta clase que retorne:
+        - El código "XVGS" si el dato de entrada es 1
+        - El código "HSKV" si el dato de entrada es 2
+        - El código "SJOS" si el dato de entrada es 3
+    c.- Crea una clase hija con el nombre "codigoExternos" que herede lo contendio en "codigoPrincipal"
+    d.- Instnciando un objeto de la clase hija, imprime lo contenido en el método de la clase padre
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 12.-PHPObj_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
+13.- (.pptx 26)
+    Utilizando las dos clases anteriores creadas:
+    a.- Crea un nuevo método llamado "codigoEspecial" dentro de la clase padre que retorne el mensaje de "UUXX"
+    b.- Dentro de la clase hija, crea un nuevo método con el nombre "casosEspeciales" que retorne un parent de "codigoEspecial"
+    c.- Instancia un objeto de la clase hija e imprime lo contenido en el método "casosEspeciales"
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 13.-PHPObj_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
+14.- (.pptx 27)
+    Dentro de una clase: 
+    a.- Crea un método privado llamado "mensajeInterno" que retorne el mensaje "mensaje interno"
+    b.- Crea un nuevo método público que retorne al método privado antes creado 
+    c.- Instanciando un objeto de la clase creada, imprime lo contenido en el método público 
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 14.-PHPObj_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
+15.- (.pptx 28)
+    a.- Dentro de una clase padre, crea un método protegido llamado "metodoProtected" que regrese la multiplicación de 5*5*5*5 
+    b.- Crea una clase hija de la clase padre antes creada que contenga un método que retorne lo contenido en la función protegida 
+    c.- Instancia un objeto de la clase hija e imprime lo contenido en el método público de esta 
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 15.-PHPObj_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
+16.- (.pptx 29)
+    a.- Agrega lo necesario para poder imprir el siguiente método estático:
+   
+    <?php
+    class clasePrincipal{
+        public static function mensajeStatic(){
+            return "Error en el sistema 2";
+        }
+    }
+?>
+
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 16.-PHPObj_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
+17.- (.pptx 30)
+    Utilizando el concepto de polimorfismo:
+    a.- Crea una clase padre llamada "classSTP" y una hija llamada "classSTU" public 
+    b.- Crea un método para la clase padre e hija con el nombre "transaccion" (igual en las dos), que retornen difernetes valores 
+    c.- Instancia un objeto de la clase "classSTU"e imprime lo contendido en el método "transaccion"
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 17.-PHPObj_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
+Ejercicios - PHP Conexión con MySQL 
+-----------------------------------------------------------------------------------------
+18.- (pptx. 13)
+    a.- Crea una nueva base de datos en phpMyAdmin con el nombre de "db_fastfood"
+    b.- Dentro de PHP, crea una clase para la conexión llamada "classConexion" que contenga las propiedades necesarias para la conexión con la base de datos
+    c.- Crea un método constructor que contenga los parámetros necesarios para crear una conexión PDO con la base de datos antes creada
+    d.- Dentro del método constructor crea una línea de código que imprima "conexion exitosa" si se logra obtener una conexión con la base de datos
+    e.- De no lograrse establecer una conexión con la base de datos, crea un línea de código que imprima "error en la conexión" 
+    f.- Manda llamar la conexión antes creada y realiza una prueba buscando obtener el mensaje de "conexion exitosa"
+        - Realiza una captura de pantalla del mensaje arrojado en el navegador 
+(Guarda la captura de pantalla en el repositorio remoto con el nombre 18.- PHPConexion_Nombre_Apellido1_Apellido2.JPG)
+(Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 18.-PHPConexion_Nombre_Apellido1_Apellido2.php)
+-----------------------------------------------------------------------------------------
