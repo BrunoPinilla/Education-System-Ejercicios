@@ -143,7 +143,7 @@ Ejercicios - PHP Orientado a Objetos
     c.- Instancia un objeto de la clase "classSTU"e imprime lo contendido en el método "transaccion"
 (Guarda el archivo en la carpeta PHP del repositorio remoto con el nombre 17.-PHPObj_Nombre_Apellido1_Apellido2.php)
 -----------------------------------------------------------------------------------------
-18.- (.pptx)
+18.- (.pptx 34)
     Crea dos carpetas llamadas "carpetaalfa" y "carpetabeta"
     a.- En "carpetaalfa" crea un archivo PHP que contenga una clase llamada "mapeo" que contenga un método llamado "imprimir" que imprima el mensaje "map404"
     b.- En "carpetabeta" crea un archivo PHP que contenga una clase y método con el mismo nombre que imprima el mensaje "map202" 
