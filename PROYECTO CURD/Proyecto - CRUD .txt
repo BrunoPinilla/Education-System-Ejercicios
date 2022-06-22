@@ -1,0 +1,13 @@
+Proyecto - PHP MySQL PDO CRUD 
+-----------------------------------------------------------------------------------------
+Intrucciones: 
+    Con apoyo en el material propuesto en "PHP MySQL PDO CRUD": Realiza un CRUD que permita crear (C), leer, (R), actualizar (U) y borrar (D) productos automotrices de una base de datos.
+    a.- Utiliza elementos y herramientas aprendidos en el curso VS Code para agilizar el desarrollo
+    b.- Crea una estructura HTML equilibrada que contenga todos los elementos necesarios para la interacción del usuario 
+    c.- Utiliza CSS y/o SASS para dar los estilos deseados a la aplicación 
+    d.- Utiliza JavaScript y/o JQuery para dar dinamismo a la aplicación y que esta no se estática 
+    e.- Utiliza MySQL para alojar la base de datos a utilizar 
+    f.- Utiliza PHP para realizar las transacciones, conexiónes y consultas a la base de datos 
+    g.- Crea documentación a la par del desarrollo con Doxygen, obteniendo un output HTML 
+(Genera una carpeta comprimida con los archivos utilizados y guardara en la carpeta PROYETO CRUD del repositorio remoto con el nombre PROYECTO_Nombre_Apellido1_Apellido2.zip)
+(Diseña una presentación para la evaluación del proyecto por parte de un Educador (Puedes apoyarte en herramientas como PowerPoint o Word))
