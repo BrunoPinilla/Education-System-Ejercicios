@@ -1,0 +1,71 @@
+Ejercicios - Introducción a Postman
+-----------------------------------------------------------------------------------------
+1.- (.pptx 14)
+    a.- Crea una colección con el nombre "coleccionPrincipal"
+    Utilizando la APPI https://jsonplaceholder.typicode.com/todos
+    a.- Realiza una petición GET para obtener todos los elementos contendios en el servidor de la APPI 
+        - Realiza una captura de pantalla de la petición y resultados obtendios, asi como del status de la petición (Esperando 200 OK)
+    b.- Crea tres nuevos registros y agrégalos a la lista contenida en la APPI
+        - Identifica si se necesita una autenticación para utilizar POST en la APPI 
+        - Realiza una autenticación si es necesario 
+        - Realiza una captura de pantalla de la petición y resultados obtendios, asi como del status de la petición (Esperando 201 Created)
+    Ordena y guarda las capturas en un archivo de word y exportalo a PDF
+(Guarda el documento generado en la carpeta Postman del repositorio remoto con el nombre de 1.-Postman_Nombre_Apellido1_Apellido2.pdf)
+-----------------------------------------------------------------------------------------
+2.- (.pptx 17)
+    Utilizando la APPI https://jsonplaceholder.typicode.com/todos
+    a.- Actualiza el registro con el id 30:
+        - Cambia el valor del campo title por "qui dolorem ipsum quia dolor sit amet"
+        - Cambia completed a false
+    Realiza una captura de pantalla de la petición y resultados obtendios, asi como del status de la petición (Esperando 204 por el tipo de API)
+    Ordena y guarda las capturas en un archivo de word y exportalo a PDF
+(Guarda el documento generado en la carpeta Postman del repositorio remoto con el nombre de 2.-Postman_Nombre_Apellido1_Apellido2.pdf)
+-----------------------------------------------------------------------------------------
+3.- (.pptx 19)
+    Utilizando la APPI https://jsonplaceholder.typicode.com/todos
+    a.- Actualiza ÚNICAMENTE el cambio completed del registro con el id 52
+        - Cambia false a true 
+    Realiza una captura de pantalla de la petición y resultados obtendios, asi como del status de la petición (Esperando 204 por el tipo de API)
+    Ordena y guarda las capturas en un archivo de word y exportalo a PDF
+(Guarda el documento generado en la carpeta Postman del repositorio remoto con el nombre de 3.-Postman_Nombre_Apellido1_Apellido2.pdf)
+-----------------------------------------------------------------------------------------
+4.- (.pptx 21)
+    Utilizando la APPI https://jsonplaceholder.typicode.com/todos
+    a.- Elimina el registro con el title "quia voluptatibus voluptatem quos similique maiores repellat"
+    b.- Elimina el registro con el titl "ut sequi accusantium et mollitia delectus sunt"
+    Realiza una captura de pantalla de la petición y resultados obtendios, asi como del status de la petición (Esperando 200)
+    Ordena y guarda las capturas en un archivo de word y exportalo a PDF
+(Guarda el documento generado en la carpeta Postman del repositorio remoto con el nombre de 4.-Postman_Nombre_Apellido1_Apellido2.pdf)
+-----------------------------------------------------------------------------------------
+5.- (.pptx 23)
+    Utilizando la APPI https://jsonplaceholder.typicode.com/todos
+    a.- Setea la URL princiapl de la APPI como una variable de nombre {{mainURL}}
+    b.- Setea una variable global para el valor de id 2 con el nombre "two"
+    b.- Utiliza la variable de la URL creada para hacer un GET que traiga el elemento con el id "two"
+    Realiza una captura de pantalla de la petición y resultados obtendios, asi como del status de la petición (Esperando 200)
+    Ordena y guarda las capturas en un archivo de word y exportalo a PDF
+(Guarda el documento generado en la carpeta Postman del repositorio remoto con el nombre de 5.-Postman_Nombre_Apellido1_Apellido2.pdf)
+-----------------------------------------------------------------------------------------
+6.- (.pptx 30)
+    Utilizando la APPI https://jsonplaceholder.typicode.com/todos
+    a.- En Body, carga o genera por lo menos dos estructuras de datos distintas (form-data, url encode, raw, binary, etc) para subir a la API
+    Nota: Esto solo será representativo, ya que no se permitirá subir los datos a la API para su consulta
+    Realiza una captura de pantalla de la parámetros cargados o generados
+    Ordena y guarda las capturas en un archivo de word y exportalo a PDF
+(Guarda el documento generado en la carpeta Postman del repositorio remoto con el nombre de 6.-Postman_Nombre_Apellido1_Apellido2.pdf)
+-----------------------------------------------------------------------------------------
+7.- (.pptx 38)
+    Utilizando la APPI https://jsonplaceholder.typicode.com/todos
+    a.- Realiza un test para cuando el status code de la petición sea igual a 201 para la petición creada b.- del ejercicio 14 (Agrega nuevos registros)
+    b.- Realiza un test para cuando el tiempo de respuesta de la petición es menor a 200ms
+    c.- Realiza un test personalizado con JavaScript y describe su estructura con comentarios dentro de Tests 
+    Realiza una captura de pantalla del test realizado, asi como de los resultados obtenidos en Test Results 
+    Ordena y guarda las capturas en un archivo de word y exportalo a PDF
+(Guarda el documento generado en la carpeta Postman del repositorio remoto con el nombre de 7.-Postman_Nombre_Apellido1_Apellido2.pdf)
+-----------------------------------------------------------------------------------------
+8.- (.pptx )
+    Utilizando la APPI https://jsonplaceholder.typicode.com/todos
+    a.- Ejecuta todos los tests diseñados en una sola acción 
+    Realiza una captura de pantalla de los resultados obtenidos 
+(Guarda el documento generado en la carpeta Postman del repositorio remoto con el nombre de 8.-Postman_Nombre_Apellido1_Apellido2.pdf)
+-----------------------------------------------------------------------------------------
