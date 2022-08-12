@@ -1,0 +1,50 @@
+<script>
+    var precio = 100;
+    var iva1 = 21
+    var iva2 = precio * iva1/100;
+    var precioconiva = precio+iva2;
+
+    alert(precioconiva)
+</script>
+
+<script> 
+var numero = 13;
+    
+    if(numero%2==0){
+        
+        alert("El número "+numero+" es par");
+    
+    }else{
+        
+        alert("El número "+numero+" es impar");
+        
+    }
+</script>
+
+<script>
+    var nombre = "Cesar ";
+    var apellido = "Alanis ";
+    var edad = 21;
+var datos = nombre + apellido + edad;
+console.log("El nombre es: ", datos);
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="divrojo" onclick="mensaje()" style="width: 100px; height: 100px; position: absolute; background-color: red; text-align: center;">Pulsa aqui</div>
+    <script>
+        var div = document.querySelector('#divrojo');
+
+        function mensaje(){
+            alert("Pulsaste el boton");
+        }
+    </script>
+</body>
+</html>
