@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-color: rgb(237, 75, 75);
+            font-size: 150%;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+        }
+
+        button {
+            margin-left: 540px;
+            padding: 10px;
+            background-color: rgb(249, 138, 138);
+            border: 0;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: rgb(249, 163, 163);
+        }
+
+        p {
+            text-align: center;
+            color: white;
+            font-size: 80%;
+        }
+
+        div {
+            border: 1px solid white;
+            margin-top: 50px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+    <h1>Traductor de texto</h1>
+    <button id="btn">Haz clic para traducir el texto</button>
+    <div>
+        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quaeab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+            dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
+            sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
+            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+            suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in
+            ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
+            nulla pariatur?"</p>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $("#btn").click(function () {
+                $("p").load("traduccion.txt", function (responseTxt, statusTxt, xhr) {
+                    if (statusTxt == "Succes")
+                        console.log(statusTxt);
+                    alert("Texto traducido correctamente");
+                    if (statusTxt == "Error")
+                        alert("Error: " + xhr.statusTxt);
+            });
+        });
+        });
+    </script>
+</body>
+
+</html>
