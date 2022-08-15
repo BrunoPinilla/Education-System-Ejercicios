@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Cronometro</title>
+	<meta charset="utf-8">
+
+	<script type="text/javascript">
+		window.requestAnimationFrame = window.requestAnimationFrame ||
+			window.mozRequestAnimationFrame ||
+			window.webkitRequestAnimationFrame ||
+			window.oRequestAnimationFrame;
+
+		var globalID;
+		var i = 60;
+		var inicioCronometro;
+
+
+		function inicio() {
+			inicioCronometro = setInterval(cronometro, 1000);
+		}
+
+		function cronometro() {
+
+			i--
+			mensaje = document.getElementById('mensaje');
+			mensaje.innerHTML = "Cuenta regresiva";
+			document.getElementById('horas');
+			document.getElementById('minutos');
+			document.getElementById('segundos');
+
+			horas.innerHTML = "00";
+			if (i < 60) {
+				minutos.innerHTML = "00";
+			}
+
+			if (i == 0) { resetCronometro() }
+			i = actualizarHora(i);
+			segundos.innerHTML = i;
+
+		}
+
+		function resetCronometro() {
+			clearInterval(inicioCronometro);
+			mensaje.innerHTML = "Tu tiempo ha terminado";
+			horas.innerHTML = "00";
+			minutos.innerHTML = "00";
+			segundos.innerHTML = "00";
+		}
+
+		function data() {
+			var hoy = new Date();
+			var h = hoy.getHours();
+			var m = hoy.getMinutes();
+			var s = hoy.getSeconds();
+			h = actualizarHora(h);
+			m = actualizarHora(m);
+			s = actualizarHora(s);
+
+			horas = document.getElementById('horas')
+			minutos = document.getElementById('minutos')
+			segundos = document.getElementById('segundos')
+
+			horas.innerHTML = h;
+			minutos.innerHTML = m;
+			segundos.innerHTML = s;
+		}
+		// Actualizar hora para los tres ejercicios
+		function actualizarHora(i) {
+			if (i < 10) { i = "0" + i };  // Añadir el cero en números menores de 10
+
+			return i;
+		}
+
+	</script>
+
+
+
+	<style type="text/css">
+		body {
+			background-color: black;
+		}
+
+		#cabecera {
+			text-align: center;
+		}
+
+		.dial,
+		#mensaje {
+			font-weight: bold;
+			font-size: 58px;
+			font-family: "Arial";
+			text-shadow: 0 1px 0 #ccc,
+				0 2px 0 #c9c9c9,
+				0 3px 0 #bbb,
+				0 4px 0 #b9b9b9,
+				0 5px 0 #aaa,
+				0 6px 1px rgba(0, 0, 0, .1),
+				0 0 5px rgba(0, 0, 0, .1),
+				0 1px 3px rgba(0, 0, 0, .3),
+				0 3px 5px rgba(0, 0, 0, .2),
+				0 5px 10px rgba(0, 0, 0, .25),
+				0 10px 10px rgba(0, 0, 0, .2),
+				0 20px 20px rgba(0, 0, 0, .15);
+			color: white;
+		}
+
+		#horas,
+		#minutos,
+		#segundos {
+			box-shadow: 3px 3px 8px black;
+			background-color: gainsboro;
+
+			border: outset 2px;
+			float: left;
+			margin-left: 2px;
+			padding: 2px;
+			margin-bottom: 55px;
+		}
+
+		#puntos1,
+		#puntos2 {
+			color: white;
+			float: left;
+			margin-left: 4px;
+			animation: blink-animation 1s steps(5, start) infinite;
+			-webkit-animation: blink-animation 1s steps(5, start) infinite;
+		}
+
+		#mensaje {
+			clear: both;
+		}
+
+		@keyframes blink-animation {
+			to {
+				visibility: hidden;
+			}
+		}
+
+		@-webkit-keyframes blink-animation {
+			to {
+				visibility: hidden;
+			}
+		}
+	</style>
+</head>
+
+<body onload="inicio()">
+
+	<div id="mensaje"></div>
+
+	<br><br>
+
+	<div class="dial">
+		<div id="horas"> 00 </div>
+		<div id="puntos1"> :</div>
+		<div id="minutos"> 01 </div>
+		<div id="puntos2"> :</div>
+		<div id="segundos"> 00 </div>
+	</div>
+
+
+
+</body>
+
+</html>

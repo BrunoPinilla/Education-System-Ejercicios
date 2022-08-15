@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        button{
+            background-color: rgb(137, 133, 133);
+            border: 0;
+            color: white;
+            font-size: 20px;
+        }
+
+        button:hover{
+            background-color: rgb(90, 88, 88); 
+            cursor: pointer;
+            border: 1px;
+            border-color: azure;
+        }
+
+        body{
+            background-color: rgb(110, 110, 110);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cuadro1" style="width: 200px; height: 200px; background: red;"></div>
+    <button style="display:block; margin-top: 10px; height: 30px; width: 200px;" onclick="cambiarcolor()">Cambiar color</button>
+
+
+    <div id="cuadro2" style="width: 200px; height: 200px; background: rgb(126, 6, 6); margin-top: 10px;"></div>
+    <button style="display:block; margin-top: 10px; height: 30px; width: 200px;" onclick="cambiarwidth()">Cambiar width</button>
+
+
+    <div id="cuadro3" style="width: 200px; height: 200px; background: rgb(81, 6, 6); margin-top: 10px;"></div>
+    <button style="display:block; margin-top: 10px; height: 30px; width: 200px;" onclick="cambiarheight()">Cambiar height</button>
+
+
+
+    <script>
+       var cuadro1 = document.querySelector('#cuadro1');
+
+       function cambiarcolor(){
+        cuadro1.style.background = "salmon";
+       }
+
+       var cuadro2 = document.querySelector('#cuadro2');
+
+       function cambiarwidth(){
+        cuadro2.style.width = "400px";
+       }
+
+       var cuadro3 = document.querySelector('#cuadro3');
+
+       function cambiarheight(){
+        cuadro3.style.height = "100px";
+       }
+    </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #header{
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 30px;
+        }
+
+        #subtitle{
+            text-align: center;
+        }
+
+        .content{
+            text-align: center;
+        }
+
+        .div{
+            background-color: rgb(84, 218, 84);
+            height: 20px;
+            width: 400px;
+            margin-left: 435px;
+            text-align: center;
+            font-size: small;
+            padding-top: 5px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="header">Título de la página</h1>
+    <h2 id="subtitle">Subtítulo de la página</h2>
+    <p class="content">Contenido Contenido Contenido Contenido Contenido Contenido</p>
+    <div class="div">Menú desplegable</div>
+    <script>
+        var header = document.querySelector("#header");
+        console.log("header", header);
+
+        header.style.fontSize = "60px"
+
+        var subtitle = document.querySelector("#subtitle");
+        console.log("subtitle", subtitle);
+
+        subtitle.style.color = "gray";
+
+        var content = document.querySelector(".content");
+        console.log("content", content);
+
+        content.style.background = "darkgray";
+
+        var div = document.querySelector(".div");
+        console.log("div", div);
+
+        div.style.background = "Beige";
+    </script>
+</body>
+</html>

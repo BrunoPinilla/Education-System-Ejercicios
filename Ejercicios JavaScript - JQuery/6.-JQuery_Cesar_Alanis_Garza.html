@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+
+    <div id="negro1" style="width: 100px; height: 100px; position: absolute; background-color: black;"></div>
+
+    <div id="aqua1"
+        style="width: 100px; height: 100px; position: absolute; margin-left: 110px; background-color: aquamarine;">
+    </div>
+
+    <div id="negro2"
+        style="width: 100px; height: 100px; position: absolute; margin-left: 220px; background-color: black;"></div>
+
+    <div id="aqua2"
+        style="width: 100px; height: 100px; position: absolute; margin-top: 110px; background-color: aquamarine;"></div>
+
+    <div id="negro3"
+        style="width: 100px; height: 100px; position: absolute; margin-top: 110px; margin-left: 110px; background-color: black;">
+    </div>
+
+    <div id="aqua3"
+        style="width: 100px; height: 100px; position: absolute; margin-top: 110px; margin-left: 220px; background-color: aquamarine;">
+    </div>
+
+    <script>
+
+        //NEGRO
+        $("#negro1").click(function () {
+            $("#negro1").css({ "background": "aquamarine" });
+        });
+
+        $("#negro2").click(function () {
+            $("#negro2").css({ "background": "aquamarine" });
+        });
+
+        $("#negro3").click(function () {
+            $("#negro3").css({ "background": "aquamarine" });
+        });
+
+        // AQUAMARINE
+        $("#aqua1").click(function () {
+            $("#aqua1").hide("slow");
+        });
+
+        $("#aqua2").click(function () {
+            $("#aqua2").hide("slow");
+        });
+
+        $("#aqua3").click(function () {
+            $("#aqua3").hide("slow");
+        });
+
+    </script>
+
+</body>
+
+</html>
