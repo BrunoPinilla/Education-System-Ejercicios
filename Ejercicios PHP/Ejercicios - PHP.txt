@@ -43,7 +43,7 @@ Ejercicios - Introducción a PHP
 -----------------------------------------------------------------------------------------
 5.- (.pptx 38)
     Con PHP: 
-    a.- Utiliando una función, realiza un programa que muestre:
+    a.- Utilizando una función, realiza un programa que muestre:
         - El nombre 
         - El apellido 
         - La edad
