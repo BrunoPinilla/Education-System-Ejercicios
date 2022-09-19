@@ -1,0 +1,134 @@
+Ejercicios - UML
+-----------------------------------------------------------------------------------------
+Nota: Para el diagramado de los siguientes ejercicios utiliza draw.io (https://app.diagrams.net/) o cualquier otra herramienta de diagramado de tu preferencia 
+-----------------------------------------------------------------------------------------
+1.- (.pptx 31)
+    Realiza un diagrama de actividades para la actividad de Recibir Orden de Compra, con los siguientes pasos:
+    a.- Recbibir orden de compra 
+    b.- Verificar producto en stock 
+    c.- ¿Existe producto en stock? 
+    d.- Si existe producto en stock, Despachar producto al cliente y finalizar prorceso 
+    e.- Si no existe producto en stock: 
+        f.- Informar al cliente de demora en la entrega 
+        g.- Realizar pedido al proveedor
+        h.- Generar cupón de descuento por demora 
+        Después: 
+            i.- Recbibir producto de proveedor y despachar producto al cliente finalizando el proceso
+(Realiza una captura de pantalla del diagrama y guárdala en la carpeta UML con el nombre 1.-UML_Nombre_Apellido1_Apellido2.png)
+-----------------------------------------------------------------------------------------
+2.- (.pptx 31)
+    Problema - Diagrama de actividades 
+
+        Una empresa dedicada al comercio de autopartes ha reunido a su personal para realizar el levantamiento de su proceso de venta
+    en línea. Tu trabajo es apoyarles en el modelado del diagrama de actividades. A la reunión ha asistido personal del área de ventas,
+    atención al cliente, facturación, bodega e inventario.
+
+    Iniciada la reunión, la persona de ventas indica que el proceso comienza cuando el usuario ingresa a la tienda virtual, selecciona los
+    productos a comprar, y paga el valor de compra, la persona de ventas indica que antes de realizar el pago el usuario puede ver el detalle
+    de la factura mediante la tienda virtual, pero las facturas canceladas no son enviadas directamente a la bodega para su despacho. por
+    políticas internas de la empresa cada factura generada por compra en línea es revisada de forma manual por una persona de ventas.
+    
+    Las ordenes de compra que tienen factura revisada son enviadas al área de bodega para su despacho, la persona de la bodega indica
+    que lo primero que realiza tras recibir las ordenes de compra es revisar si existe el producto en stock debido a que en ocasiones dos o
+    más usuarios compra el mismo producto en línea de manera simultánea generando falta de producto en la bodega. Si el producto existe
+    en stock el despacho es realizado, pero si el producto no existe la empresa tiene una política de compensación al usuario el cual consiste
+    en: generar a favor del consumidor un cupón del 20% de descuento para su próxima compra, tarea que está a cargo de la persona de
+    ventas, mientras que la persona de atención al cliente llama vía telefónica al usuario y le informa de la demora así como su respectiva
+    bonificación, por otro lado cuando suceden este tipo de casos la persona de inventario realiza una adquisición inmediata del producto.
+    
+    Finalmente, cuando el producto se encuentra listo en bodega se realiza el despacho.
+    La administración ha solicitado adicional que en el diagrama de actividades se especifique los estados de la orden de compra para una
+    mejor comprensión de cómo evoluciona este a lo largo del proceso.
+
+    a.- Identifica los actores del prcoeso 
+    b.- Coloca los actores en particiones/marco de responsabilidades para odenar el diagrama posteriormente 
+    c.- Identifica las acciones y puntos de decisión 
+    d.- Realiza un diagrama de actividades que describa el flujo del porblema 
+(Realiza una captura de pantalla del diagrama y guárdala en la carpeta UML con el nombre 2.-UML_Nombre_Apellido1_Apellido2.png)
+-----------------------------------------------------------------------------------------
+3.- (.pptx 41)
+    Problema - Diagrama de Casos de Uso 
+
+    Una empresa dedicada a la venta de electrónica para el sector automotriz, ha solicitado que se desarrolle un aplicativo para la venta en línea de sus productos. Durante la reunión de levantamiento de requerimientos los solicitantes han indicado que dicho aplicativo debe permitir al cliente ver el catálogo de todos sus productos, seleccionar el producto que desee y agregarlo a un carrito para la compra. 
+
+Los solicitantes han indicado que el sistema debe verificar la disponibilidad del producto antes de realizar las actividades anteriores. Una vez que el cliente ha finalizado la selección de sus productos, el sistema debe presentar en pantalla el detalle de la factura para que el cliente pueda continuar con el pago, los mecanismos habilitados para ello serán: Transferencia Bancaria y Pago con Tarjeta. 
+
+Efectuado el pago el sistema deberá remitir automáticamente la factura al correo electrónico del cliente. La empresa ha indicado también que el sistema debe incluir, una opción de consulta de compras realizada para el cliente, un módulo de administración de precios y descuentos para el administrador de la tienda, y finalmente, que se incluya como parte de la opción de pago una funcionalidad que permita al cliente ingresar sus cupones de descuento que reciben por compras frecuente o compras mayores a 300 dólares.
+
+    a.- Lee cuidadosamente el porblema, poniendo mayor atención a todo los que ivolucre: funcionalidades, actores y relaciones
+    b.- Identifica el sistema que se va a construir 
+    c.- Coloca el sistema en la herramienta de modelado de diagrama de casos de uso (Recurda que se representa con un rectandulo con el nomnbre del sistema     en la parte superior)
+    d.- Identifica las funcionalidades (casos de uso) que conforman el programa 
+    e.- Coloca los casos de uso identificados en la herramienta de modelado (Recuerda que estos van dentro del rectángulo y se representan con óvalos)
+    f.- Identifica a los actores que interactuan con el programa
+    g.- Coloca los actores identificados en la herramienta de modelado
+    h.- Identifica las relaciones entre los actores y casos de uso. ¿Qué acciones pueden realizar cada uno de mis actores? (Solo las de asociación)
+    i.- Coloca las relaciones identificadas en la herramienta de modelado 
+    j.- Indentifica las relaciones entre casos de uso (Include o Extend) [Las obligatorias son de tipo Include. Las opcionales son de tipo Extend]
+    k.- Coloca estas últimas relaciones identificadas en la herramienta de modelado 
+(Realiza una captura de pantalla del diagrama y guárdala en la carpeta UML con el nombre 3.-UML_Nombre_Apellido1_Apellido2.png)
+-----------------------------------------------------------------------------------------
+4.- (.pptx 51)
+    Problema - Diagrama de Clases 
+
+    Realiza un diagrama de clases donde consideres: 
+    - Las clases existentes 
+    - El tipo de relación entre clases 
+    - La asociación entre clases 
+    - La agregación entre clases 
+    - La composición 
+    - La multiplicidad 
+
+    Para un sistema de carrito de compras que cueta con las siguientes clases: 
+        a.- Usuario 
+        b.- Cliente 
+        c.- Administrador
+        d.- Carrito de compras 
+        e.- Pedido 
+        f.- Información de envío 
+        g.- Detalles de pedido
+
+    Contempla al menos tres atributos para cada clase (Ej. ID, Nombre, Cantidad) y un método 
+(Realiza una captura de pantalla del diagrama y guárdala en la carpeta UML con el nombre 4.-UML_Nombre_Apellido1_Apellido2.png)
+-----------------------------------------------------------------------------------------
+5.- (.pptx 63)
+    Problema - Diagrama de Secuencias 
+
+    Realiza un diagrama de secuencias para un programa que registre usuarios en una base de datos.
+        Considera los siguientes objetos:
+        - Usuario 
+        - Interface de usuario 
+        - Aplicación de registro 
+        - Base de datos 
+
+    Para el diagramado, inclute las siguientes transacciones: 
+    1.- Seleccionar opción registrarse 
+    2.- Notificar acción de registro 
+    3.- Generar formulario de registri 
+    4.- Ingresar datos personales en el formulario
+    5.- Enviar datos de registri 
+    6.- Validar si los datos ya se encuentran registrados 
+    7.- Retornar respuesta 
+    8.- Notificar el registro exitoso 
+(Realiza una captura de pantalla del diagrama y guárdala en la carpeta UML con el nombre 5.-UML_Nombre_Apellido1_Apellido2.png)
+-----------------------------------------------------------------------------------------
+6.- (.pptx 63)
+    Problema - Diagrama de Secuencias 2
+
+    Realiza un diagrama de secuencias para una autenticación en una aplicación web.
+        Considera los siguientes objetos:
+        - Usuario
+        - Aplicación
+        - Menú
+
+     Para el diagramado, inclute las siguientes transacciones: 
+     1.- Desplegar interface 
+     2.- Iniciar aplicación 
+     3.- Mostrar menú 
+     4.- Teclear credenciales
+     5.- Seleccionar opción 
+     6.- Mostrar opciones 
+     7.- Clic en botón de inicio de sesión 
+
+(Realiza una captura de pantalla del diagrama y guárdala en la carpeta UML con el nombre 6.-UML_Nombre_Apellido1_Apellido2.png)
+-----------------------------------------------------------------------------------------
