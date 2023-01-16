@@ -1,0 +1,128 @@
+Ejercicios - Redes 
+-----------------------------------------------------------------------------------------
+1.- (.pptx 27)
+	Identifica la clase de red de las siguientes IP
+	- 35.0.0.0 
+	- 198.200.15.0 
+	- 158.97.80.0 
+	- 230.230.35.49 
+	- 199.44.1.2 
+	- 10.10.0.0 
+	- 1.1.1.1 
+	- 178.100.0.4  
+	- 177.0.230.1  
+	- 215.100.0.0 
+Genera un documento .txt con las respuestas para cada uno de los casos
+(Guarda el documento generado en la carpeta Redes del repositorio remoto con el nombre de 1.-Redes_Nombre_Apellido1_Apellido2.txt)
+-----------------------------------------------------------------------------------------
+2.- (.pptx 27)
+	Identifica la parte de red de las siguientes direcciones
+	- 170.100.1.0
+	- 117.80.56.35 
+	- 30.1.1.1 
+	- 10.0.0.0 
+	- 192.168.10.0 
+	- 220.200.0.1 
+	- 150.20.10.90 
+	- 158.90.90.1 
+Genera un documento .txt con las respuestas para cada uno de los casos
+(Guarda el documento generado en la carpeta Redes del repositorio remoto con el nombre de 2.-Redes_Nombre_Apellido1_Apellido2.txt)
+-----------------------------------------------------------------------------------------
+3.- (.pptx 27)
+	Identifica la parte de host de las siguientes direcciones
+	- 192.168.10.1
+	- 17.50.200.50 
+	- 100.25.1.1 
+	- 50.250.55.55 
+	- 10.0.1.1 
+	- 25.250.250.45 
+	- 220.250.250.200 
+	- 218.155.230.14 
+Genera un documento .txt con las respuestas para cada uno de los casos
+(Guarda el documento generado en la carpeta Redes del repositorio remoto con el nombre de 3.-Redes_Nombre_Apellido1_Apellido2.txt)
+-----------------------------------------------------------------------------------------
+4.- (.pptx 27)
+	Escribe la mascara de red (255.255.255.0) que corresponden a los siguientes valores
+	- /32 
+	- /30
+	- /29 
+	- /24 
+	- /16 
+	- /14
+	- /8 
+Genera un documento .txt con las respuestas para cada uno de los casos
+(Guarda el documento generado en la carpeta Redes del repositorio remoto con el nombre de 4.-Redes_Nombre_Apellido1_Apellido2.txt)
+-----------------------------------------------------------------------------------------
+5.- (.pptx 54)
+	Enrutamiento estático
+	- Consulta el recurso Ejercicio "5.- Enrutamiento estático" de tu repositorio
+	- Realiza un enrutamiento estático tomando en cuenta las IP proporcionadas 
+	- Logra la comunicación con ping entre computadoras 
+	- Escribe las IP utilizadas en cada dispositivo para su comunicación al lado del dispositivo
+(Guarda el archivo en la carpeta Redes del repositorio remoto con el nombre de 5.- Redes_Nombre_Apellido1_Apellido2.pkt)
+-----------------------------------------------------------------------------------------
+6.- (.pptx 54)
+	Enrutamiento estático 
+	- Consulta el recurso Ejercicio "6.- Enrutamiento estático" de tu repositorio
+	- Realiza un enrutamiento estático tomando en cuenta las IP proporcionadas 
+	- Considera:
+		a.- La dirección .250 para los servidores de las subredes
+		b.- La dirección .254 para el puerto de los routers que se comunican con las sub redes 192.X.X.X
+	- Logra la comunicación con ping entre computadoras y servidores
+	- Escribe las IP utilizadas en cada dispositivo para su comunicación al lado del dispositivo
+(Guarda el archivo en la carpeta Redes del repositorio remoto con el nombre de 6.- Redes_Nombre_Apellido1_Apellido2.pkt)
+-----------------------------------------------------------------------------------------
+7.- (.pptx 54)
+	Enrutamiento estático 
+	- Consulta el recurso Ejercicio "7.- Enrutamiento estático" de tu repositorio
+	- Realiza un enrutamiento estático tomando en cuenta las IP proporcionadas 
+	- Considera:
+		a.- La dirección .253 para el servidor de la subred
+		b.- La dirección .254 para el puerto de los routers que se comunican con las sub redes 192.X.X.X
+		c.- La IP 192.168.3.1 para PC0
+		d.- La IP 192.168.1.1 para PC1
+		e.- La IP 192.168.2.1 para PC2
+	- Logra la comunicación con ping entre computadoras y servidores
+	- Escribe las IP utilizadas en cada dispositivo para su comunicación al lado del dispositivo
+(Guarda el archivo en la carpeta Redes del repositorio remoto con el nombre de 7.- Redes_Nombre_Apellido1_Apellido2.pkt)
+-----------------------------------------------------------------------------------------
+8.- (.pptx 58)
+	Enrutamiento dinámico RIP
+	- Consulta el recurso Ejercicio "8.- Enrutamiento dinámico RIP" de tu repositorio
+	- Define las IP correspondientes de cada uno de los dispositivos de la red en base a lo siguiente:
+		a.- Direcciones IP de clase A para las conexiones entre routers 
+		b.- IPs de clase C para las subredes azules y verdes donde se encuentran los servidores 
+		c.- IPs de clase B para lo contenido en la sección roja 
+		d.- Dar la última dirección IP de la subred al gateway (que serán los routers conectados a los switch)
+	- Realiza un enrutamiento dinámico RIP tomando en cuenta las IP asignadas 
+	- Logra la comunicación con ping entre todos los dispositivos 
+	- Escribe las IP utilizadas en cada dispositivo para su comunicación al lado del dispositivo
+(Guarda el archivo en la carpeta Redes del repositorio remoto con el nombre de 8.- Redes_Nombre_Apellido1_Apellido2.pkt)
+-----------------------------------------------------------------------------------------
+9.- (.pptx 59)
+	Enrutamiento dinámico EIGRP
+	- Consulta el recurso Ejercicio "9.- Enrutamiento dinámico EIGRP" de tu repositorio
+	- Define las IP correspondientes de cada uno de los dispositivos de la red en base a lo siguiente:
+		a.- Direcciones IP de clase A para las conexiones entre routers 
+		b.- IPs 192.168.0.0/24 para las subred azules 
+		c.- IPs 192.168.10.0/24 para las subred naranja
+		c.- IPs 200.200.0.0/(Máscara a elegir) para lo contenido en la sección amarilla 
+		d.- Dar la última dirección IP de la subred al gateway (que serán los routers conectados a los switch)
+	- Realiza un enrutamiento dinámico EIGRP tomando en cuenta las IP asignadas 
+	- Logra la comunicación con ping entre todos los dispositivos 
+	- Escribe las IP utilizadas en cada dispositivo para su comunicación al lado del dispositivo
+(Guarda el archivo en la carpeta Redes del repositorio remoto con el nombre de 9.- Redes_Nombre_Apellido1_Apellido2.pkt)	
+-----------------------------------------------------------------------------------------
+10.- (.pptx 61)
+	Enrutamiento dinámico OSPF-BGP
+	- Consulta el recurso Ejercicio "10.- Enrutamiento dinámico OSPF-BGP" de tu repositorio
+	- Elimina los enlaces que no sean necesarios para lograr la comunicación entre los dispositivos de la red
+	- Define las IP correspondientes de cada uno de los dispositivos de la red en base a lo siguiente:
+		a.- Direcciones IP de clase C diferentes para cada una de las subredes (rosa, morada, vino y roja)
+		b.- Direcciones IP de clase B para las conexiones entre routers 
+		c.- Dar la última dirección IP de la subred al gateway (que serán los routers conectados a los switch)
+	- Realiza un enrutamiento dinámico OSPF o BGP tomando en cuenta las IP asignadas (Define cual se utilizó)
+	- Logra la comunicación con ping entre todos los dispositivos 
+	- Escribe las IP utilizadas en cada dispositivo para su comunicación al lado del dispositivo
+(Guarda el archivo en la carpeta Redes del repositorio remoto con el nombre de 10.- Redes_Nombre_Apellido1_Apellido2.pkt)		
+-----------------------------------------------------------------------------------------
